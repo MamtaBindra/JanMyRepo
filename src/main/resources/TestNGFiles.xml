@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="mySuite1"  parallel="classes" verbose="1" thread-count="2" >
+  <test name="myTests" >
+    <classes>
+       <class name="testNGScripts.DropDown" />
+       <class name="testNGScripts.FramesDemo"/>
+    </classes>
+  </test>
+</suite>
